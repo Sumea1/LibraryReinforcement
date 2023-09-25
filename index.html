@@ -1,0 +1,344 @@
+<!DOCTYPE html>
+<html lang="en" >
+  <head>
+    <meta charset="UTF-8">
+    <title>Libraria</title>
+    <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/flickity/1.0.0/flickity.css'><link rel="stylesheet" href="./style.css">
+    <script src="script.js" defer></script>
+</head>
+
+<!--Search bar, Header title-->
+<body>
+  <header>
+    <nav>
+<div class="book-store">
+ <div class="header">
+  <div class="browse">
+   <div class="browse-category">
+</div>
+<div class="search-bar">
+    <input type="text" placeholder="Search Book" />
+   </div>
+  </div>
+  <div class="header-title">Libraria Digjitale</div>
+  <div class="profile">
+   <div class="user-profile">
+  </div>
+  </div>
+ </div>
+</nav>
+</header>
+
+
+<!--Log In Button-->
+<main>
+ <ul>
+  <button> <li><a href="login.html">Log In</a></li></button></ul>
+
+
+  <!--Book slide-->
+ <div class="book-slide">
+  <div class="book js-flickity" data-flickity-options='{ "wrapAround": true }'>
+   <div class="book-cell">
+    <div class="book-img">
+      <!--Book 1-->
+     <img src="https://m.media-amazon.com/images/I/81bGKUa1e0L._SL1500_.jpg" alt="" class="book-photo">
+    </div>
+    <div class="book-content">
+     <div class="book-title">Shprehi Atomike</div>
+     <div class="book-author">nga James Clear</div>
+     <!--Star Rating-->
+     <div class="rate">
+      <fieldset class="rating">
+       <input type="checkbox" id="star5" name="rating" value="5" />
+       <label class="full" for="star5"></label>
+       <input type="checkbox" id="star4" name="rating" value="4" />
+       <label class="full" for="star4"></label>
+       <input type="checkbox" id="star3" name="rating" value="3" />
+       <label class="full" for="star3"></label>
+       <input type="checkbox" id="star2" name="rating" value="2" />
+       <label class="full" for="star2"></label>
+       <input type="checkbox" id="star1" name="rating" value="1" />
+       <label class="full" for="star1"></label>
+      </fieldset>
+      <span class="book-voters">1.987 voters</span>
+     </div>
+     <div class="book-sum">Pa marrë parasysh qëllimet tuaja, Shprehi Atomike ofron një kornizë të provuar për t'u përmirësuar - çdo ditë </div>
+     <div class="book-see">Shiko Librin</div>
+    </div>
+   </div>
+
+   <!--Book 2-->
+   <div class="book-cell">
+    <div class="book-img">
+     <img src="https://m.media-amazon.com/images/I/61XUtQ7NTgL._SL1500_.jpg" alt="" class="book-photo">
+    </div>
+    <div class="book-content">
+     <div class="book-title">48 Laws of Power</div>
+     <div class="book-author">nga Robert Greene</div>
+     <div class="rate">
+      <fieldset class="rating blue">
+       <input type="checkbox" id="star6" name="rating" value="5" />
+       <label class="full1" for="star6"></label>
+       <input type="checkbox" id="star7" name="rating" value="4" />
+       <label class="full1" for="star7"></label>
+       <input type="checkbox" id="star8" name="rating" value="3" />
+       <label class="full1" for="star8"></label>
+       <input type="checkbox" id="star9" name="rating" value="2" />
+       <label class="full1" for="star9"></label>
+       <input type="checkbox" id="star10" name="rating" value="1" />
+       <label class="full1" for="star10"></label>
+      </fieldset>
+      <span class="book-voters">1.987 voters</span>
+     </div>
+     <div class="book-sum">Ky bestseller i New York Times me shumë milionë kopje është manuali përfundimtar për këdo që është i interesuar të fitojë, vëzhgojë ose mbrohet kundër kontrollit përfundimtar – nga autori i Ligjeve të Natyrës Njerëzore.</div>
+     <div class="book-see book-blue">Shiko Librin</div>
+    </div>
+   </div>
+
+   <!--Book 3-->
+   <div class="book-cell">
+    <div class="book-img">
+     <img src="https://m.media-amazon.com/images/I/81hHy5XrdKL._SL1330_.jpg" alt="" class="book-photo">
+    </div>
+    <div class="book-content">
+     <div class="book-title">The Four Agreements </div>
+     <div class="book-author">nga Don Miguel Ruiz</div>
+     <div class="rate">
+      <fieldset class="rating purple">
+       <input type="checkbox" id="star11" name="rating" value="5" />
+       <label class="full" for="star11"></label>
+       <input type="checkbox" id="star12" name="rating" value="4" />
+       <label class="full" for="star12"></label>
+       <input type="checkbox" id="star13" name="rating" value="3" />
+       <label class="full" for="star13"></label>
+       <input type="checkbox" id="star14" name="rating" value="2" />
+       <label class="full" for="star14"></label>
+       <input type="checkbox" id="star15" name="rating" value="1" />
+       <label class="full" for="star15"></label>
+      </fieldset>
+      <span class="book-voters">1.987 voters</span>
+     </div>
+     <div class="book-sum">Në Katër Marrëveshjet, autori bestseller don Miguel Ruiz zbulon burimin e besimeve vetëkufizuese që na grabisin gëzimin dhe krijojnë vuajtje të panevojshme.</div>
+     <div class="book-see book-pink">Shiko Librin</div>
+    </div>
+   </div>
+
+   <!--Book 4-->
+   <div class="book-cell">
+    <div class="book-img">
+     <img src="https://images-na.ssl-images-amazon.com/images/I/81af+MCATTL.jpg" alt="" class="book-photo">
+    </div>
+    <div class="book-content">
+     <div class="book-title">The Great Gatsby</div>
+     <div class="book-author">nga F.Scott Fitzgerald</div>
+     <div class="rate">
+      <fieldset class="rating yellow">
+       <input type="checkbox" id="star16" name="rating" value="5" />
+       <label class="full" for="star16"></label>
+       <input type="checkbox" id="star17" name="rating" value="4" />
+       <label class="full" for="star17"></label>
+       <input type="checkbox" id="star18" name="rating" value="3" />
+       <label class="full" for="star18"></label>
+       <input type="checkbox" id="star19" name="rating" value="2" />
+       <label class="full" for="star19"></label>
+       <input type="checkbox" id="star20" name="rating" value="1" />
+       <label class="full" for="star20"></label>
+      </fieldset>
+      <span class="book-voters">1.987 voters</span>
+     </div>
+     <div class="book-sum">Historia tragjike e Jay Gatsby, një milioner, dhe ndjekja e tij e Daisy Buchanan, një grua e re të pasur të cilën ai e donte në rininë e tij</div>
+     <div class="book-see book-yellow">Shiko Librin</div>
+    </div>
+   </div>
+
+   <!--Book 5-->
+   <div class="book-cell">
+    <div class="book-img">
+     <img src="https://images-na.ssl-images-amazon.com/images/I/81UWB7oUZ0L.jpg" alt="" class="book-photo">
+    </div>
+    <div class="book-content">
+     <div class="book-title">After You</div>
+     <div class="book-author">nga Jojo Moyes</div>
+     <div class="rate">
+      <fieldset class="rating dark-purp">
+       <input type="checkbox" id="star21" name="rating" value="5" />
+       <label class="full" for="star21"></label>
+       <input type="checkbox" id="star22" name="rating" value="4" />
+       <label class="full" for="star22"></label>
+       <input type="checkbox" id="star23" name="rating" value="3" />
+       <label class="full" for="star23"></label>
+       <input type="checkbox" id="star24" name="rating" value="2" />
+       <label class="full" for="star24"></label>
+       <input type="checkbox" id="star25" name="rating" value="1" />
+       <label class="full" for="star25"></label>
+      </fieldset>
+      <span class="book-voters">1.987 voters</span>
+     </div>
+     <div class="book-sum">Louisa Clark nuk është më vetëm një vajzë e zakonshme që bën një jetë të zakonshme.</div>
+     <div class="book-see book-purple">Shiko Librin</div>
+    </div>
+   </div>
+  </div>
+ </div>
+<!--Popular Books-->
+ <div class="overlay"></div>
+  </div>
+  <div class="popular-books">
+   <div class="main-menu">
+    <div class="genre">Të famshëm</div>
+
+    <!--Genres-->
+    <div class="book-types">
+     <a href="#" class="book-type active"> Zhanret</a>
+     <a href="biznes.html" class="book-type"> Biznes</a>
+     <a href="shkence.html" class="book-type"> Shkencë</a>
+     <a href="fantazi.html" class="book-type"> Fantazi</a>
+     <a href="psikologji.html" class="book-type"> Psikologji</a>
+     <a href="#" class="book-type"> Biografi</a>
+    </div>
+   </div>
+
+   <!--Popular Books-->
+   <div class="book-cards">
+    <div class="book-card">
+     <div class="content-wrapper">
+     <img src="https://m.media-amazon.com/images/I/910N36lR+kL._SL1500_.jpg" alt="" class="book-card-img">
+     <div class="card-content">
+     <div class="book-name">DUNE</div>
+      <div class="book-by">Frank Herbert</div>
+      <!--Rating-->
+      <div class="rate">
+<fieldset class="rating book-rate">
+<input type="checkbox" id="star-c1" name="rating" value="5">
+<label class="full" for="star-c1"></label>
+<input type="checkbox" id="star-c2" name="rating" value="4">
+<label class="full" for="star-c2"></label>
+<input type="checkbox" id="star-c3" name="rating" value="3">
+<label class="full" for="star-c3"></label>
+<input type="checkbox" id="star-c4" name="rating" value="2">
+<label class="full" for="star-c4"></label>
+<input type="checkbox" id="star-c5" name="rating" value="1">
+<label class="full" for="star-c5"></label>
+</fieldset>
+<span class="book-voters card-vote">1.987 voters</span>
+</div>
+       <div class="book-sum card-sum">Readers of all ages and walks of life have drawn inspiration and empowerment from Elizabeth Gilbert’s books for years. </div>
+      </div>
+    </div>
+     <div class="likes">
+    </div>
+    </div>
+
+    <!--Book 2-->
+    <div class="book-card">
+     <div class="content-wrapper">
+     <img src="https://m.media-amazon.com/images/I/91tw2nNcQDL._SL1500_.jpg" alt="" class="book-card-img">
+     <div class="card-content">
+     <div class="book-name">To Infinity and Beyond</div>
+      <div class="book-by">Neil deGrasse</div>
+      <div class="rate">
+<fieldset class="rating book-rate">
+<input type="checkbox" id="star-c6" name="rating" value="5">
+<label class="full" for="star-c6"></label>
+<input type="checkbox" id="star-c7" name="rating" value="4">
+<label class="full" for="star-c7"></label>
+<input type="checkbox" id="star-c8" name="rating" value="3">
+<label class="full" for="star-c8"></label>
+<input type="checkbox" id="star-c9" name="rating" value="2">
+<label class="full" for="star-c9"></label>
+<input type="checkbox" id="star-c10" name="rating" value="1">
+<label class="full" for="star-c10"></label>
+</fieldset>
+<span class="book-voters card-vote">1.987 voters</span>
+</div>
+       <div class="book-sum card-sum">Readers of all ages and walks of life have drawn inspiration and empowerment from Elizabeth Gilbert’s books for years. </div>
+      </div>
+    </div>
+     <div class="likes">
+     </div>
+    </div>
+
+    <!--Book 3-->
+    <div class="book-card">
+     <div class="content-wrapper">
+     <img src="https://m.media-amazon.com/images/I/71DAJY7VJLL._SL1500_.jpg" alt="" class="book-card-img">
+     <div class="card-content">
+     <div class="book-name">Peace</div>
+      <div class="book-by">Becky Thompson</div>
+      <div class="rate">
+<fieldset class="rating book-rate">
+<input type="checkbox" id="star-c11" name="rating" value="5">
+<label class="full" for="star-c11"></label>
+<input type="checkbox" id="star-c12" name="rating" value="4">
+<label class="full" for="star-c12"></label>
+<input type="checkbox" id="star-c13" name="rating" value="3">
+<label class="full" for="star-c13"></label>
+<input type="checkbox" id="star-c14" name="rating" value="2">
+<label class="full" for="star-c14"></label>
+<input type="checkbox" id="star-c15" name="rating" value="1">
+<label class="full" for="star-c15"></label>
+</fieldset>
+<span class="book-voters card-vote">1.987 voters</span>
+</div>
+       <div class="book-sum card-sum">Readers of all ages and walks of life have drawn inspiration and empowerment from Elizabeth Gilbert’s books for years. </div>
+      </div>
+    </div>
+     <div class="likes">
+</div>
+    </div>
+
+    <!--Book 4-->
+    <div class="book-card">
+     <div class="content-wrapper">
+     <img src="https://images-na.ssl-images-amazon.com/images/I/91M4E+SURUL.jpg" alt="" class="book-card-img">
+     <div class="card-content">
+     <div class="book-name">Afternoon Of A Faun</div>
+      <div class="book-by">by James Lasdun</div>
+      <div class="rate">
+<fieldset class="rating book-rate">
+<input type="checkbox" id="star-c16" name="rating" value="5">
+<label class="full" for="star-c16"></label>
+<input type="checkbox" id="star-c17" name="rating" value="4">
+<label class="full" for="star-c17"></label>
+<input type="checkbox" id="star-18" name="rating" value="3">
+<label class="full" for="star-c18"></label>
+<input type="checkbox" id="star-c19" name="rating" value="2">
+<label class="full" for="star-c19"></label>
+<input type="checkbox" id="star-c20" name="rating" value="1">
+<label class="full" for="star-c20"></label>
+</fieldset>
+<span class="book-voters card-vote">1.987 voters</span>
+</div>
+       <div class="book-sum card-sum">Readers of all ages and walks of life have drawn inspiration and empowerment from Elizabeth Gilbert’s books for years. </div>
+      </div>
+    </div>
+     <div class="likes">
+
+   </div>
+
+   </div>
+    </div>
+      </div>
+    </div>
+   </div>
+  </div>
+ </div>
+</div>
+<!-- partial -->
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/flickity/1.0.0/flickity.pkgd.js'></script>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
+
+<!--Dark Mode & Light Mode Switch-->
+  <div class="mode-toggle">
+        <label class="switch">
+            <input type="checkbox" id="modeToggle">
+            <span class="slider round"></span>
+        </label>
+        <center>
+          <p>Dark Mode</p>
+        </center>
+    </div>
+</body>
+</html>
+</main>
