@@ -27,14 +27,13 @@ font-size:15px;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     border: 1px solid rgb(31, 29, 29);
   }
-  
-  
   body {
     transition: background-color 0.5s, color 0.5s;
 }
 
+
 .container {
-  padding: 20px;
+    padding: 20px;
 }
 
 body.light-mode {
@@ -46,7 +45,6 @@ body.dark-mode {
   background-color: #333333;
   color: #ffffff;
 }
-
 
 .mode-toggle {
   display: flex;
@@ -85,12 +83,12 @@ body.dark-mode {
   width: 26px;
   left: 4px;
   bottom: 4px;
-  background-color: rgb(134, 169, 231);
+  background-color: white;
   transition: 0.4s;
 }
 
 input:checked + .slider {
-  background-color: #f3b821;
+  background-color: #2196F3;
 }
 
 input:checked + .slider:before {
@@ -146,6 +144,8 @@ input:checked + .slider:before {
     -ms-transform: translateX(26px);
     transform: translateX(26px);
 }
+
+
 
 img {
   max-width: 100%;
